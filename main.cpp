@@ -1,3 +1,8 @@
+/*
+ * Project: Library Management System
+ * Author: Haneen
+ * Track: Computer Science & Information Systems
+ */
 #include <iostream>
 #include "library.h"
 #include "storage.h"
@@ -6,6 +11,10 @@
 
 int main() {
     LibraryState state;
+std::cout << "========================================\n";
+std::cout << "   Welcome to Haneen's Library     \n";
+std::cout << "      System Ready for Operations       \n";
+std::cout << "========================================\n\n";
     loadDatabase(state, "library_db.txt");
     int choice;
     while (true) {
@@ -48,4 +57,5 @@ int main() {
         }
     }
     return 0;
+
 }
