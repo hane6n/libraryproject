@@ -12,7 +12,7 @@
 int main() {
     LibraryState state;
 std::cout << "========================================\n";
-std::cout << "   Welcome to Haneen's Library     \n";
+std::cout << "      Welcome to Haneen's Library     \n";
 std::cout << "      System Ready for Operations       \n";
 std::cout << "========================================\n\n";
     loadDatabase(state, "library_db.txt");
@@ -59,3 +59,4 @@ std::cout << "========================================\n\n";
     return 0;
 
 }
+
